@@ -1,0 +1,36 @@
+
+table tr td, table tr{
+    background-color: #ffffff;
+    border: solid #000000 1px;
+    width: 7em;
+    height: 7em;
+    margin: 0;
+    color: #ffffff
+
+}
+
+table{
+    margin: 10em auto;
+    background-color: #000000;
+}
+
+table tr:nth-child(odd) td:nth-child(even),
+table tr:nth-child(even) td:nth-child(odd){
+  background: #000000;
+  color: #000000;
+}
+
+.tablero tr:nth-child(n+7) td{
+  color: #ffffff;
+}
+
+.tablero tr td:hover{
+  background: rgba(255, 0, 0, 0.5);
+  color: #000000
+}
+
+table tr:nth-child(odd) td:nth-child(even):hover,
+table tr:nth-child(even) td:nth-child(odd):hover{
+  background: rgba(255, 0, 0, 0.5)
+}
+
