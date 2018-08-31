@@ -1,21 +1,33 @@
 
+body{
+    background-color: darkgray
+}
+
+.wrap{
+    text-align: center;
+    padding: 2em 0;
+    font-size: 1.5em;
+    margin: 0;
+}
+
 table tr td, table tr{
     background-color: #ffffff;
     border: solid #000000 1px;
     width: 7em;
     height: 7em;
     margin: 0;
-    color: #ffffff
+    color: #ffffff;
+    text-align: center;
 
 }
 
 table{
-    margin: 10em auto;
+    margin: 0 auto;
     background-color: #000000;
 }
 
-table tr:nth-child(odd) td:nth-child(even),
-table tr:nth-child(even) td:nth-child(odd){
+.tablero tr:nth-child(odd) td:nth-child(even),
+.tablero tr:nth-child(even) td:nth-child(odd){
   background: #000000;
   color: #000000;
 }
@@ -29,8 +41,22 @@ table tr:nth-child(even) td:nth-child(odd){
   color: #000000
 }
 
-table tr:nth-child(odd) td:nth-child(even):hover,
-table tr:nth-child(even) td:nth-child(odd):hover{
+.tablero tr:nth-child(odd) td:nth-child(even):hover,
+.tablero tr:nth-child(even) td:nth-child(odd):hover{
   background: rgba(255, 0, 0, 0.5)
+}
+
+.info{
+    margin: 5em auto 0;
+}
+
+.info td{
+    background-color: #534f4f;
+    border: 0;
+    width: 20em;
+    height: 9em;
+    color: #14addc;
+    font-size: 20px;
+    padding: 0;
 }
 
