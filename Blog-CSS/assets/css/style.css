@@ -5,7 +5,11 @@
 */
 nav{
     background-color:  #2d3436;
-    margin-bottom: 2%;
+    margin: 0 auto 2%;
+    padding: 1em;
+}
+P{
+    text-align: justify;
 }
 
 /*
@@ -79,6 +83,11 @@ figure{
     width: 100%;
 }
 
+figure img{
+    width: 100%;
+    height: 49em;
+}
+
 /*
 9. Aplicar a todas las etiquetas <figcaption>.
     9.1 Margen izquierdo de 10px.
@@ -121,8 +130,8 @@ figure{
 
 footer{
     background-color: #2d3436;
-    padding: 20px;
     color: #ffffff;
+    margin: 20px auto 0;
 }
 
 /*
@@ -141,8 +150,8 @@ label{
 */
 
 .section-footer{
-    display: inline;
-    margin: 0 15%;
+    display: inline-block;
+    margin: 0px 17%;
 }
 
 /*

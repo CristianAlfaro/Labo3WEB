@@ -1,0 +1,151 @@
+
+h1,h3{
+    font-size: 1.3em;
+}
+
+input[type=button]{
+    margin: 1em;
+    border-radius: 0.3em;
+    padding: 0.3em 1em;
+    
+}
+
+.normal{
+    background-color: #f5f5f5;
+    color: gray;
+    font-size: 1.5em;
+    border: 0;
+}
+
+.pequeño{
+    background-color: #f5f5f5;
+    color: gray;
+    font-size: 1em;
+    border: 0;
+}
+
+.grande{
+    background-color: #f5f5f5;
+    color: gray;
+    font-size: 2em;
+    border: 0;
+}
+
+.esmeralda{
+    background-color: #46c365b6;
+    color:#ffffff;
+    font-size: 1.5em;
+    border: 0;
+}
+
+.cielo{
+    background-color: #55c4ccbe;
+    color:#ffffff;
+    font-size: 1.5em;
+    border: 0;
+}
+
+.amatista{
+    background-color: #bb79c7b2;
+    color:#ffffff;
+    font-size: 1.5em;
+    border: 0;
+}
+
+.asfalto{
+    background-color: #2a2a4e9a;
+    color:#ffffff;
+    font-size: 1.5em;
+    border: 0;
+}
+
+.topazio{
+    background-color: #d3853dd0;
+    color:#ffffff;
+    font-size: 1.5em;
+    border: 0;
+}
+
+.rubi{
+    background-color: #c34a46cb;
+    color:#ffffff;
+    font-size: 1.5em;
+    border: 0;
+}
+
+.bsimple{
+    background-color: transparent;
+    border: solid 2px rgb(146, 145, 145);
+    font-size: 1.5em;
+    color: rgb(146, 145, 145);     
+}
+
+.besmeralda{
+    background-color: transparent;
+    border: solid 2px #46c365b6;
+    font-size: 1.5em;
+    color: #46c365b6;  
+}
+
+.bcielo{
+    background-color: transparent;
+    border: solid 2px #55c4ccbe;
+    font-size: 1.5em;
+    color: #55c4ccbe; 
+}
+
+.bamatista{
+    background-color: transparent;
+    border: solid 2px #bb79c7b2;
+    font-size: 1.5em;
+    color: #bb79c7b2; 
+}
+
+.basfalto{
+    background-color: transparent;
+    border: solid 2px #2a2a4e9a;
+    font-size: 1.5em;
+    color: #2a2a4e9a; 
+}
+
+.btopazio{
+    background-color: transparent;
+    border: solid 2px #d3853dd0;
+    font-size: 1.5em;
+    color: #d3853dd0; 
+}
+
+.brubi{
+    background-color: transparent;
+    border: solid 2px #c34a46cb;
+    font-size: 1.5em;
+    color: #c34a46cb; 
+}
+
+.Gasfalto{
+    background-color: #2a2a4e9a;
+    color:#ffffff;
+    font-size: 2em;
+    border: 0;
+}
+
+.Bdcielo{
+    background-color: transparent;
+    border: solid 2px #55c4ccbe;
+    font-size: 1.5em;
+    color: #55c4ccbe; 
+}
+
+.Pesmeralda{
+    background-color: transparent;
+    border: solid 2px #46c365b6;
+    font-size: 1em;
+    color: #46c365b6;  
+}
+
+.Gbrubi{
+    background-color: transparent;
+    border: solid 2px #c34a46cb;
+    font-size: 2em;
+    color: #c34a46cb; 
+}
